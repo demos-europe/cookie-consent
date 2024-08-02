@@ -63,7 +63,7 @@ function createNecessaryCookies (cookies) {
 
 function createNotice (notice) {
   var noticeContainer = document.createElement('div')
-  noticeContainer.appendChild(document.createTextNode(notice))
+  noticeContainer.innerHTML = notice
   return noticeContainer
 }
 
