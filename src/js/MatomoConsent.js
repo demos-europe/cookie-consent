@@ -12,8 +12,9 @@ function createButton (textContent, id, type) {
 function createConsentSliderButtons () {
   var buttons = document.createElement('div')
   buttons.classList.add('dp-consent-slider__buttons')
-  buttons.appendChild(createButton('Alle akzeptieren', 'accept_all', 'primary'))
-  buttons.appendChild(createButton('Einstellungen ändern', 'change_settings'))
+  buttons.appendChild(createButton('Zustimmen', 'accept_all', 'primary'))
+  buttons.appendChild(createButton('Ablehnen', 'decline_optional', 'primary'))
+  buttons.appendChild(createButton('Überprüfen', 'change_settings'))
   return buttons
 }
 
@@ -175,6 +176,12 @@ function dpConsent (config) {
       trackingConsent.given = true
       removeDpConsentElements()
     }
+
+    if (targetId === 'decline_optional') {
+      trackingConsent.given = false
+      removeDpConsentElements()
+    }
+
     if (targetId === 'change_settings') {
       showSettingsModal()
     }
