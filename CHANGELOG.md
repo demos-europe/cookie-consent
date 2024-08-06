@@ -1,6 +1,7 @@
 # CHANGELOG
 
 ## UNRELEASED
+## v1.3 (2024-08-06)
 ### Changed
 - update author name
 - enhance .npmignore
