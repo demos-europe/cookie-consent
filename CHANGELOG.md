@@ -1,7 +1,6 @@
 # CHANGELOG
 
 ## UNRELEASED
-
 ## v1.2 (2024-08-06)
 
 ### Changed
