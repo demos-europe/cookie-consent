@@ -67,25 +67,25 @@
     padding: 6px 11px;
 }
 
-.dp-consent-button--primary-outline {
+.dp-consent-button--primary {
     color: #006fd0;
     background-color: #fff;
     border: 1px solid #006fd0;
 }
 
-.dp-consent-button--primary-outline:hover {
+.dp-consent-button--primary:hover {
     color: #fff;
     background-color: #005EB1;
     border: 1px solid #006fd0;
 }
 
-.dp-consent-button--secondary-outline {
+.dp-consent-button--secondary {
     color: #808080;
     background-color: #fff;
     border: 1px solid #808080;
 }
 
-.dp-consent-button--secondary-outline:hover {
+.dp-consent-button--secondary:hover {
     color: #fff;
     background-color: #696969;
     border: 1px solid #808080;

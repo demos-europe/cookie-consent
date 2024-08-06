@@ -4,7 +4,7 @@ function createButton (textContent, id, type) {
   button.setAttribute('data-dp-consent', id)
   button.textContent = textContent
   button.classList.add('dp-consent-button')
-  var buttonStyle = type === 'primary' ? 'dp-consent-button--primary-outline' : 'dp-consent-button--secondary-outline'
+  var buttonStyle = type === 'primary' ? 'dp-consent-button--primary' : 'dp-consent-button--secondary'
   button.classList.add(buttonStyle)
   return button
 }
