@@ -68,21 +68,27 @@
 }
 
 .dp-consent-button--primary {
-    color: #fff;
-    background-color: #006fd0;
+    color: #006fd0;
+    background-color: #fff;
+    border: 1px solid #006fd0;
 }
 
 .dp-consent-button--primary:hover {
+    color: #fff;
     background-color: #005EB1;
+    border: 1px solid #006fd0;
 }
 
 .dp-consent-button--secondary {
-    color: #fff;
-    background-color: #808080;
+    color: #808080;
+    background-color: #fff;
+    border: 1px solid #808080;
 }
 
 .dp-consent-button--secondary:hover {
+    color: #fff;
     background-color: #696969;
+    border: 1px solid #808080;
 }
 
 .dp-consent-modal__button {
@@ -144,17 +150,17 @@
 }
 
 @media (max-width: 767px) {
-  .dp-consent-modal__cookie-item {
-    flex-direction: column;
-  }
+    .dp-consent-modal__cookie-item {
+        flex-direction: column;
+    }
 
-  .dp-consent-modal__cookie-item div:first-child {
-    width: 100%;
-    padding-bottom: 6px;
-  }
+    .dp-consent-modal__cookie-item div:first-child {
+        width: 100%;
+        padding-bottom: 6px;
+    }
 
-  .dp-consent-modal__cookie-item div:last-child {
-    width: 100%;
-  }
+    .dp-consent-modal__cookie-item div:last-child {
+        width: 100%;
+    }
 }
 
