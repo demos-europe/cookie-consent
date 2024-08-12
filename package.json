@@ -7,7 +7,8 @@
   "module": "dist/dp-consent.es.min.js",
   "browser": "dist/dp-consent.browser.min.js",
   "scripts": {
-    "build": "rollup --config rollup.config.js"
+    "build": "rollup --config rollup.config.js",
+    "prepack": "yarn build"
   },
   "keywords": [
     "gdpr",
